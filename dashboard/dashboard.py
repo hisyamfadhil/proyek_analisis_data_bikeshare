@@ -49,8 +49,8 @@ def average_order_by_holiday (day_df):
     avg_order_items_data = day_df.groupby("holiday").cnt.mean().reset_index()
     return avg_order_items_data
 
-day_df = pd.read_csv("day_cleaned.csv")
-hour_df = pd.read_csv("hour_cleaned.csv")
+day_df = pd.read_csv("./dashboard/day_cleaned.csv")
+hour_df = pd.read_csv("./dashboard/hour_cleaned.csv")
 
 st.header('Bike Sharing Dashboard :sparkles:')
 
