@@ -1,6 +1,6 @@
 Repository ini berisi proyek analisis data yang saya kerjakan sebagai tugas akhir dari kursus belajar analisis data menggunakan Python.
 
-Struktur Direktori:
+Struktur Direktori
 data: Berisi file data yang digunakan dalam proyek, dalam format .csv.
 dashboard: Berisi file dashboard.py yang digunakan untuk membuat dashboard hasil analisis data.
 notebook.ipynb: File notebook .ipynb yang digunakan untuk melakukan proses analisis data.
